@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>猜数字</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <div id="app">
+        <ul class="game-container">
+            <li class="item item-1">Have a Guess</li>
+            <li class="item item-2">
+                <input type="button" id="btnAction" value="Start Game">
+            </li>
+            <li class="item item-3">
+                <span id="sw"></span>
+                <input type="text" id="ins" value="text here">
+                <input type="button" value="Guess" id="btnSubmit">
+            </li>
+            <li class="item item-4">
+                <span id="scoreTip"></span>
+            </li>
+            <li class="item item-5">
+                <span id="friendlyReminder"></span>
+            </li>
+            <li class="item item-6" id="resultContainer">
+                <span id="gameResult"></span>
+            </li>
+        </ul>
+    </div>
+    <script src="../backend/base.js"></script>
+</body>
+
+</html>
